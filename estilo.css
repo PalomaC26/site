@@ -1,6 +1,30 @@
 body {
-  background-color: deepskyblue;
-  font-family: 'Times New Roman', Times, serif;
+  background-color: cadetblue;
+  font-family:'Calibri, ';
   font-size: medium;
-  color: chocolate;
+  color: rgb(10, 10, 252);
 }
+
+header {
+  background-color: aliceblue;
+}
+
+a {
+  color: darkblue;
+}
+
+header a {
+  background-color: beige;
+  text-decoration: none;
+}
+article a {
+  background-color: aliceblue;
+  color:rgb(82, 82, 233);
+  text-decoration: none;
+}
+
+footer {
+  background-color: aliceblue;
+  color: rgb(82, 82, 233);
+}
+
