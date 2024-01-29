@@ -5,50 +5,64 @@
 
 
 body {
-  background-color:black;
+  background-color:rgb(121, 121, 226);
   font-family:'Calibri, ';
-  font-size: medium;
-  color:white;
-}
-
-header {
-  background-color:cornflowerblue;
-  padding: 30px;
-}
-
-a {
-  color: black;
-}
-
-
-header a {
+  font-size: 18px;
   color:black;
-  text-decoration: none;
-}
-article a {
-  background-color: aliceblue;
-  color:rgb(82, 82, 233);
-  text-decoration: none;
-  padding: 10px;
 }
 
-article{
-  background-color: cornflowerblue;
+.topo {
+  background-color: rgb(229, 229, 241);
   padding: 30px;
-  margin-bottom: 30px;
 }
 
-.topo a {
-  color: white;
-  text-decoration:none ;
+
+.topo a{
+  color:blue;
+  text-decoration: none;
 }
 
-footer {
-  background-color:white;
-  color: black;
+.botao {
+  background-color: bisque;
+  color:blue;
+  text-decoration: none;
   padding: 10px;
+  
+}
+
+.materia {
+  background-color: rgb(229, 229, 241);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+
+.rodape {
+  background-color:rgb(229, 229, 241);
+  color:blue;
+  padding: 20px;
 }
 
 main {
-  padding: 30px;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin-left: 800px;
+}
+
+.menu a:hover {
+  color:rgb(229, 229, 241)
+}
+
+
+
+.menu li{
+margin-right: 50px;
+}
+
+.navegação {
+  display:flex
 }
