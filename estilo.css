@@ -1,6 +1,7 @@
 
 *{
   margin: 0;
+  box-sizing: border-box;
 }
 
 
@@ -35,7 +36,9 @@ body {
   text-decoration: none;
   padding: 10px;
   display: inline-block;
-  border-radius: 10px; 
+  border-radius: 10px;
+  font-size: 18px; 
+  border:0
 }
 
 .botao:hover {
@@ -103,4 +106,39 @@ main {
 
 .navegação {
   display:flex
+}
+
+.rotulo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.campo {
+  display: block;
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+  font-family: 'Calibri';
+  border:1px none;
+  background-color:rgb(121, 121, 226);
+}
+
+.campo:focus {
+  background-color: rgb(121, 121, 226);
+  outline: none;
+}
+
+textarea.campo {
+  height: 150px;
+  padding: 10px;
+  font-family: 'Calibri';
+}
+
+.contato {
+  background-color: rgb(192, 192, 241);
+  padding: 30px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
