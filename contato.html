@@ -3,7 +3,7 @@
 <head>
     <title>meusite</title> 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
     <link href="estilo.css" rel="stylesheet">
 </head>
 <body>
@@ -23,21 +23,20 @@
 
 <main>
 <h1 class="titulo">contato</h1>  
-<p class="texto">Os gatos são os animais de estimação mais populares de todo o mundo. Apesar de domesticados, os gatos partilham todas as características dos felinos selvagens dos quais são parentes: são fortes, ágeis, dotados de grandes reflexos, sentidos apurados e instinto de caça, além de possuírem a personalidade vincada e individualista que lhes é característica.</p>
-
+<p class="texto">Os campos com * são de preenchimento obrigatório!</p>
 <!--corpo do formulario-->
  <form class="contato">
   <!--campos do formulario-->
   <!--campo Nome-->
   <label class="rotulo">
-    Nome
-    <input type="text" class="campo">
+    Nome*
+    <input type="text" class="campo" required>
  </label>
 
  <!--campo Email-->
  <label class="rotulo">
-   E-mail
-  <input type="email" class="campo">
+   E-mail*
+  <input type="email" class="campo" required>
 </label>
 
 <!--campo Asunto-->
@@ -52,7 +51,7 @@
 
 <!--campo Mensagem-->
 <label class="rotulo">
-   Mensagem
+   Mensagem*
    <textarea class="campo"></textarea>
 </label>
 
